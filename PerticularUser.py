@@ -2,7 +2,7 @@ import sys
 import json
 from tweepy import Cursor
 from Permission import get_account
-with open('data.txt') as f:
+with open('file location contain user id') as f:
     array = []
     for line in f: # read rest of lines
         for x in line.split():

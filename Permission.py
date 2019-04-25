@@ -5,10 +5,10 @@ from tweepy import OAuthHandler
 
 def get_auth():
 	try:
-		consumer_key="hWC6lYlmoOmkuWYOK9wjV0nNQ"
-		consumer_secret="bl6DUjkTsMjfKbP9uEGbbFV6rLEZjUSqPMPcC7CIWenjeEWtzM"
-		access_token="1100439059544055811-ppzMhkgecGg8Kw58wYPERjFpl5dBoR"
-		access_secret="Iejcim3pwDZluXrboGm6i27FWzViVAcZNHsCkTbsErFxS"
+		consumer_key=" "
+		consumer_secret=" "
+		access_token=" "
+		access_secret=" "
 	except KeyError:
 		sys.exit(1)
 	
